@@ -21,7 +21,7 @@
 }
 
 .card {
-  height: 380px;
+  height: 350px;
   max-width: 200px;
   background-color: aqua;
   padding: 30px;
@@ -61,8 +61,8 @@
 
 .card--orange {
   background-color: #e38826;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .card--blue {
@@ -71,8 +71,8 @@
 
 .card--dark {
   background-color: #004241;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .card__btn {
@@ -124,13 +124,13 @@
   }
   .card--orange {
     background-color: #e38826;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
   .card--dark {
     background-color: #004241;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */

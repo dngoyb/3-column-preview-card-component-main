@@ -3,6 +3,7 @@ $cyan: hsl(184, 100%, 22%);
 $Very_dark_cyan: hsl(179, 100%, 13%);
 $transparenc_white: hsla(0, 0%, 100%, 0.75);
 $light_gray: hsl(0, 0%, 95%);
+$border: 5px;
 
 * {
 	margin: 0;
@@ -20,7 +21,7 @@ $light_gray: hsl(0, 0%, 95%);
 }
 
 .card {
-	height: 380px;
+	height: 350px;
 	max-width: 200px;
 	background-color: aqua;
 	padding: 30px;
@@ -54,8 +55,8 @@ $light_gray: hsl(0, 0%, 95%);
 
 	&--orange {
 		background-color: $orange;
-		border-top-left-radius: 3px;
-		border-bottom-left-radius: 3px;
+		border-top-left-radius: $border;
+		border-bottom-left-radius: $border;
 	}
 
 	&--blue {
@@ -64,8 +65,8 @@ $light_gray: hsl(0, 0%, 95%);
 
 	&--dark {
 		background-color: $Very_dark_cyan;
-		border-top-right-radius: 3px;
-		border-bottom-right-radius: 3px;
+		border-top-right-radius: $border;
+		border-bottom-right-radius: $border;
 	}
 
 	&__btn {
@@ -114,14 +115,14 @@ $light_gray: hsl(0, 0%, 95%);
 	.card {
 		&--orange {
 			background-color: $orange;
-			border-top-left-radius: 3px;
-			border-top-right-radius: 3px;
+			border-top-left-radius: $border;
+			border-top-right-radius: $border;
 		}
 
 		&--dark {
 			background-color: $Very_dark_cyan;
-			border-bottom-left-radius: 3px;
-			border-bottom-right-radius: 3px;
+			border-bottom-left-radius: $border;
+			border-bottom-right-radius: $border;
 		}
 	}
 }
